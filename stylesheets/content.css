@@ -1,0 +1,400 @@
+html {
+    background: #FFFFFF;
+  }
+  body {
+    margin: 0 auto;
+    padding: 0;
+    width: 1440px;
+  }
+
+  /* Первый экран */
+
+  .screen1 {
+    position: relative;
+    width: 1440px;
+    height: 850px;
+    left: 0px;
+    top: 0px;
+    background: #0085FF;
+    overflow-x: hidden;
+  }
+  h1{
+    font-family: "Menoe grotesque";
+    font-size: 285px;
+    color: #FFFFFF;
+    position: absolute;
+    margin-left: 170px;
+    margin-top: 120px;
+  }
+  h2 {
+    font-family: "Menoe grotesque";
+    font-size: 165px;
+    color: #FFFFFF;
+    position: absolute;
+   margin-left: 370px;
+   margin-top: 400px;
+  }
+  .stamp1 {
+    position: absolute;
+    margin-left: 760px;
+    margin-top: -70px;
+  }
+  .stamp2{
+    position: absolute;
+    margin-left: -180px;
+    margin-top: 240px;
+    height: 610px;
+  }
+  .stamp3{
+    position: absolute;
+    margin-left: 850px;
+    margin-top: 490px;
+
+  }
+
+  /* Второй экран */
+  .screen2 {
+    position: relative;
+    width: 1440px;
+    height: 700px;
+    left: 0px;
+    top: 0px;
+    background: #ffffff;
+    overflow-x: hidden;
+}
+
+.container {
+  width: 1900px;
+  height: 400px;
+  display: flex;
+}
+.sign1{
+  width: 670px;
+  height: 180px;
+  background-color: #0085FF;
+  margin-left: 875px;
+  margin-top: 80px;
+  border-radius: 55px;
+}
+.arrow {
+  position: absolute;
+  margin-left: 50px;
+  padding-top: 15px;
+}
+h3{
+  font-family: "Menoe grotesque";
+  font-size: 50px;
+  color: #FFFFFF;
+  margin-left: 220px;
+  padding-top: 35px;
+}
+ h4 {
+  font-family: "Menoe grotesque";
+  font-size: 30px;
+  color: #FFFFFF;
+  margin-left: 220px;
+  padding-top: 10px;
+ }
+ .stamp4 {
+  position: absolute;
+  margin-left: 80px;
+  margin-top: 50px;
+}
+
+
+/* Текст */
+.text {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+.history {
+  color: #0085FF;
+  width: 604px;
+  height: 180px;
+}
+.conception {
+  font-family: "Menoe grotesque";
+  font-size: 22px;}
+
+/* Третий экран */
+.screen3{
+    position: relative;
+    width: 1440px;
+    height: 1000px;
+    left: 0px;
+    top: 0px;
+    background: #ffffff;
+    overflow-x: hidden;
+   }
+   
+/* Знак */
+
+ .sign2{
+  width: 670px;
+  height: 180px;
+  background-color: #0085FF;
+  margin-left: -100px;
+  margin-top: 80px;
+  border-radius: 55px;
+}
+.arrow2 {
+  position: absolute;
+  margin-left: 480px;
+  padding-top: 15px;
+}
+.h3second{
+  font-family: "Menoe grotesque";
+  font-size: 50px;
+  color: #FFFFFF;
+  position: relative;
+  right: 80px;
+  padding-top: 35px;
+}
+.h4second{
+  font-family: "Menoe grotesque";
+  font-size: 30px;
+  color: #FFFFFF;
+  position: relative;
+  right: 80px;
+  padding-top: 10px;
+}
+
+/* Текст */
+.r{
+  position: absolute;
+  margin-top: 130px;
+  margin-left: 70px;
+}
+.i{
+  position: absolute;
+  margin-left: 830px;
+  margin-top: -70px;
+  height: 730px;
+}
+.regular{
+  color: #0085FF;
+  font-family: "Menoe grotesque";
+  font-size: 30px;
+  margin-left: 370px;
+  margin-top: 640px;
+}
+.italic {
+  color: #0085FF;
+  font-family: "Menoe grotesque";
+  font-size: 30px;
+  margin-left: 1190px;
+  margin-top: -750px;}
+
+  /* Четвертый экран */
+  .screen4 {
+    position: relative;
+    width: 1440px;
+    height: 870px;
+    left: 0px;
+    top: 0px;
+    background: #0085FF;
+    overflow-x: hidden;
+  }
+  .sign3{
+    width: 670px;
+    height: 180px;
+    background-color: #ffffff;
+    margin-left: -100px;
+    margin-top: 80px;
+    border-radius: 55px;
+  }
+  .arrow3 {
+    position: absolute;
+    margin-left: 480px;
+    padding-top: 15px;
+  }
+  .h3third{
+    font-family: "Menoe grotesque";
+    font-size: 50px;
+    color: #0085FF;
+    position: relative;
+    right: 80px;
+    padding-top: 35px;
+  }
+  .h4third{
+    font-family: "Menoe grotesque";
+    font-size: 30px;
+    color: #0085FF;
+    position: relative;
+    right: 80px;
+    padding-top: 10px;
+  }
+  .size{
+    margin-top: 210px;
+    margin-left: 105px;
+  }
+  .inf{
+    font-family: "Menoe grotesque";
+    font-size: 22px;
+    color: #FFFFFF;
+    margin-left: 770px;
+    margin-top: -150px;
+  }
+
+    /* Пятый экран */
+    .screen5 {
+      position: relative;
+      width: 1440px;
+      height: 3400px;
+      left: 0px;
+      top: 0px;
+      background: #ffffff;
+      overflow-x: hidden;
+    }
+
+  .lettera{
+    position: absolute;
+    font-family: "Menoe grotesque";
+    font-size: 30px;
+    color: #0085FF;
+    margin-top: -2117px;
+    margin-left: 530px;
+  }
+
+  .letterz{
+    position: absolute;
+    font-family: "Menoe grotesque";
+    font-size: 30px;
+    color: #0085FF;
+    margin-top: -1860px;
+    margin-left: 420px;
+  }
+  .letterb{
+    position: absolute;
+    font-family: "Menoe grotesque";
+    font-size: 30px;
+    color: #0085FF;
+    margin-top: -710px;
+    margin-left: 860px;
+  }
+  .sign4{
+    position: absolute;
+    width: 670px;
+    height: 180px;
+    background-color: #0085FF;
+    border-radius: 55px;
+    margin-left: 875px;
+    margin-top: -300px;
+  }
+.container2{
+  width: 510px;
+  height: 200px;
+  margin-left: 925px;
+  margin-top: -75px;
+}
+  .variety {
+  font-family: "Menoe grotesque";
+  font-size: 22px;
+  color: #0085FF;
+  }
+  .box{
+    position: relative;
+    width: 1300px;
+    margin-left: 70px;
+    margin-top: -150px;
+  }
+
+/* Шестой экран */
+.screen6 {
+  position: relative;
+  width: 1440px;
+  height: 1000px;
+  left: 0px;
+  top: 0px;
+  background: #0085FF;
+  overflow-x: hidden;
+}
+.clock{
+  margin-left: 150px;
+  margin-top: 90px;
+}
+.city {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+.city1 {
+  font-family: "Menoe grotesque";
+  font-size: 50px;
+  position: relative;
+  color: #FFFFFF;
+  margin-top: -40px;
+}
+
+/* Седьмой экран */
+.screen7 {
+  position: relative;
+  width: 1440px;
+  height: 1800px;
+  left: 0px;
+  top: 0px;
+  background: #ffffff;
+  overflow-x: hidden;
+}
+.post{
+  margin-top: -130px;
+  margin-left: -395px;
+}
+.tag{
+  margin-left: 110px;
+  margin-top: 110px;
+  transform: rotate(-14.56deg)
+}
+.s5{
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+.tag2{
+  position: absolute;
+  margin-top: 180px;
+  margin-left: 360px;
+  transform: rotate(-24.13deg)
+}
+.s6{
+  position: absolute;
+  margin-top: 550px;
+  margin-left: 330px;
+}
+
+.mark{
+  position: absolute;
+  transform: rotate(-10.48deg);
+  margin-top: 750px;
+  margin-left: -180px;
+}
+.block{
+  position: relative;
+  margin-top: 450px;
+}
+
+.student{
+  position: absolute;
+  font-family: "Menoe grotesque";
+  font-size: 30px;
+  color: #0085FF;
+  margin-top: -55px;
+  margin-left: 50px;
+}
+.school{
+  position: absolute;
+  font-family: "Menoe grotesque";
+  font-size: 30px;
+  color: #0085FF;
+  margin-top: -55px;
+  margin-left: 535px;
+}
+.date{
+  position: absolute;
+  font-family: "Menoe grotesque";
+  font-size: 30px;
+  color: #0085FF;
+  margin-top: -55px;
+  margin-left: 930px;
+}
